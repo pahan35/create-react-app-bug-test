@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from 'logo.svg';
 import 'App.css';
+import Comp1 from 'Group1/Comp1';
+import Comp2 from 'Group2/Comp2';
 
 class App extends Component {
   render() {
@@ -19,6 +21,8 @@ class App extends Component {
           >
             Learn React
           </a>
+          <Comp1 />
+          <Comp2 />
         </header>
       </div>
     );
